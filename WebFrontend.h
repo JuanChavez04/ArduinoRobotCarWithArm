@@ -58,7 +58,7 @@ const char INDEX_HTML[] PROGMEM = R"rawliteral(
   </div>
 
   <div class="section">
-    <h2>Car Movement (Hold to move. After a few seconds, cruise control is activates)</h2>
+    <h2>Car Movement (Hold to move. After a few seconds, cruise control activates)</h2>
     <div>
       <button class="move-btn" onmousedown="startMove('forward')" onmouseup="stopMove()" ontouchstart="startMove('forward')" ontouchend="stopMove()">Forward</button>
     </div>
